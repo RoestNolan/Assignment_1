@@ -1,21 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nolan Roest - Software Engineer</title>
+    <link rel="stylesheet" href="">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            border: none;
+            color: #333;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #333;
+            color: #ffcc00;
+        }
+
+        .about, .experience {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .about h2, .experience h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about p, .experience p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .experience ul {
+            list-style-type: none;
+            text-align: left;
+        }
+
+        .experience ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+ 
 <body>
 
 <img src="image.jpg" style="width:100%">
 
-<div class="">
- <h1>Nolan Roest</h1>
- <p>I am a second year software engineering student. I enjoy outdoor sports, video games, and listening to music.</p>
- 
-</div>
+
+
+</body>
+</html>
+
+<!-- Navigation Bar -->
+<nav>
+    <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
+    <div>
+        <h1>Nolan Roest</h1>
+        <p>Software Engineering Student | Outdoor Enthusiast | Music Lover</p>
+        <button class="btn">View My Work</button>
+        <button class="btn">Contact Me</button>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        Hi! I'm Nolan Roest, a second-year software engineering student with a passion for problem-solving and creating meaningful digital experiences. 
+        I thrive on challenges, whether it's coding a new project or exploring the great outdoors. In addition to my studies, I enjoy staying active with 
+        outdoor sports, playing video games, and listening to music. I'm always looking for opportunities to learn and grow as a developer.
+    </p>
+</section>
+
+<!-- Work Experience Section -->
+<section id="experience" class="experience">
+    <h2>Work Experience</h2>
+    <p>Here is some of my past experience:</p>
+    <ul>
+        <li><strong>Intern, Nova Steel.</strong> (May 2024 - August 2024) - Worked on materials science and quality engineering</li>
+    </ul>
+</section>
+
+<!-- Footer Section -->
+<footer id="contact">
+    <p>Phone: (111) 111-1111</p>
+    <p>Email: nolanroest@example.com</p>
+    <p>&copy; 2024 Nolan Roest</p>
+</footer>
 
 </body>
 </html>
